@@ -1,6 +1,8 @@
 # Installition Cacti with MariaDb
 ### Firstly you should deploy mariadb in yor server 
 Sample stack-deploy.yml
+## Docker pull https://github.com/million12/docker-mariadb
+## Docker pull https://hub.docker.com/r/polinux/cacti
 
 ## Mariadb Stack yml :
 
