@@ -1,0 +1,20 @@
+version: "3.8"
+
+services:
+  cacti:
+    image: polinux/cacti:latest
+    ports:
+      - "8081:80"
+    environment:
+      - TIMEZONE=Asia/Tehran
+      - DB_USER=DBUSER
+      - DB_PASS=DBPASS
+      - DB_ADDRESS=mariadb
+    depends_on:
+      - mariadb
+    networks:
+      - cacti_network
+
+networks:
+  cacti_network:
+    external: true
