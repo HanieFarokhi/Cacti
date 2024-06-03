@@ -1,4 +1,6 @@
+# Introduction:
 
+Cacti is an insanely powerful tool that helps organizations effectively monitor and monitor the status and performance of their servers. It provides a wide range of functions and capabilities for monitoring various aspects of the server infrastructure.
 
 # Installation Guide: Deploying Cacti with MariaDB 🌐
 
