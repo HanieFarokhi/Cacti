@@ -56,6 +56,9 @@ Once MariaDB is deployed and you've created a new database and user passwords, y
 
 ```
 
+
+
+
 ### Enhancements and Tips:
 - Ensure that MariaDB is properly configured with the required user permissions and access controls before integrating it with Cacti.
 - Consider adding environment variables and configurations to the Cacti stack YAML file to customize the deployment according to your requirements.
